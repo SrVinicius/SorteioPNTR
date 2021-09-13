@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: #4E0D5F;
+    min-height: 100%;
+}
+
+header{
+    display: grid;
+    grid-template-columns: max-content auto;
+    border-bottom: 0.8rem solid #640A73;
+}
+
+header section{
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+}
+
+header section h1{
+    margin: 0 1.5rem;
+}
+
+header section picture{
+    display: flex;
+    flex-direction: row;
+}
+
+header div{
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header div a{
+    text-decoration: none;
+    margin: 0 1rem;
+    color: black;
+}
+
+header section picture img{
+    width: 100%;
+}
+
+header div a:hover{
+    text-decoration: underline;
+}
+
+.bg-login {
+    background-color: #640A73;
+}
+
+.bg-button {
+    background-color: goldenrod;
+}
