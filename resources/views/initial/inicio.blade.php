@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Side Chest'o</title>
+    <title>Secret friend do rock (and roll)</title>
     <link rel="stylesheet" href="{{asset('css/initial/inicio.css')}}" />
     <link rel="stylesheet" href="{{asset('css/initial/carousel.css')}}" />
 </head>
@@ -12,9 +12,9 @@
     <header>
         <section>
             <picture>
-                <img src="{{asset('img/logo/sidechest90.png')}}" alt="Logo" />
+                <img src="{{asset('img/logo/logopresentedetchola.png')}}" alt="Logo" />
             </picture>
-            <h1> Side Chest'o</h1>
+            <h1> Amigx Secretx do rock</h1>
         </section> 
         @if (Route::has('login'))
                 <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
@@ -31,16 +31,9 @@
             @endif  
     </header>
     <main>
-        <section class="carousel">
-            <ol>
-                    @foreach($imagens as $imagem)
-                <li>
-                    <img src="{{asset($imagem['url'])}}" alt="{{$imagem['nome']}}" />
-                </li>
-                    @endforeach
-            </ol>    
+        <section>
+             
         </section>
-        <h1> Classic Bodybuilding </h1>
     </main>     
 </body>
 </html>

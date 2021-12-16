@@ -19,15 +19,12 @@
     <main>
         <div>
             <picture>
-                <a href='/criarsala'> <img src="{{asset('img/logo/criarsalalogo.png')}}" alt="LogoCriar" /> </a>
+                <a href="{{ url('/welcome') }}"> <img src="{{asset('img/logo/criarsalalogo.png')}}" alt="LogoCriar" /> </a>
             </picture>
-            <a href='/criarsala'> <h1>Criar Sala</h1> </a>
+            <a href="{{ url('/welcome') }}"> <h1>Criar Sala</h1> </a>
             </section>
             <section>
-                <picture>
-                   <a href="{{ url('/welcome') }}"> <img src="{{asset('img/logo/entrarsalalogo.png')}}" alt="LogoEntrar" /> </a>
-                </picture>
-                <a href="{{ url('/welcome') }}"> <h1>Entrar em sala criada</h1> </a>
+                <input type="text" name="nomesala">
             </section>
         </div>
     </main>
