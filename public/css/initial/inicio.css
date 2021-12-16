@@ -9,14 +9,14 @@ body{
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
-    background-color: #4E0D5F;
+    background-color: #AF8383;
     min-height: 100%;
 }
 
 header{
     display: grid;
     grid-template-columns: max-content auto;
-    border-bottom: 0.8rem solid #640A73;
+    background-color: #602B2B;
 }
 
 header section{
@@ -56,9 +56,9 @@ header div a:hover{
 }
 
 .bg-login {
-    background-color: #640A73;
+    background-color: #AF8383;
 }
 
 .bg-button {
-    background-color: goldenrod;
+    background-color: #602B2B;
 }

@@ -1,0 +1,31 @@
+header{
+    display: grid;
+    grid-template-columns: max-content auto;
+    background-color: #602B2B;
+    
+}
+
+body{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    min-height: 100%;
+    background-color: #AF8383;
+    
+}
+
+main img{
+    max-width: 80px;
+    max-height: 100px;
+    align-items: center;
+}
+
+main h1{
+    align-items: center;
+}
+
+button{
+    color: #602B2B;
+    width: 30;
+    height: 50;
+}

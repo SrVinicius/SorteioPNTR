@@ -1,0 +1,43 @@
+header{
+    display: grid;
+    grid-template-columns: max-content auto;
+    background-color: #602B2B;
+    
+}
+
+body{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    min-height: 100%;
+    background-color: #AF8383;
+    
+}
+
+header picture{
+    align-items: center;
+}
+header section{
+    display: flex;
+    align-content: stretch;
+    align-items: center;
+}
+
+header section picture{
+    display: flex;
+    flex-direction: row;
+}
+
+header div{
+    display: flex;
+    align-items: right;
+
+}
+
+header section picture img{
+    width: 100%;
+}
+
+header div a:hover{
+    text-decoration: underline;
+}
